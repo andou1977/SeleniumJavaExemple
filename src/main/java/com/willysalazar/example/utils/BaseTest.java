@@ -20,6 +20,7 @@ public abstract class BaseTest {
     protected AddRemoveElementsPage addRemoveElementsPage;
     protected BasicAuthPage basicAuthPage;
     protected ChallengingDomAndou challengingDomAndou;
+    protected AndoumenutextPage andoumenutextpage;
 
     public static WebDriver getDriver() {
         return driver;
@@ -35,6 +36,7 @@ public abstract class BaseTest {
         addRemoveElementsPage = new AddRemoveElementsPage(driver);
         basicAuthPage = new BasicAuthPage(driver);
         challengingDomAndou=new ChallengingDomAndou(driver);
+        andoumenutextpage=new AndoumenutextPage(driver);
     }
 
     @AfterMethod
