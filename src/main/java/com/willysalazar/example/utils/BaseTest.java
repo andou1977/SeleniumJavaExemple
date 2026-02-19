@@ -21,6 +21,7 @@ public abstract class BaseTest {
     protected BasicAuthPage basicAuthPage;
     protected ChallengingDomAndou challengingDomAndou;
     protected AndoumenutextPage andoumenutextpage;
+    protected AndounewAction  andounewAction;
 
     public static WebDriver getDriver() {
         return driver;
@@ -37,6 +38,7 @@ public abstract class BaseTest {
         basicAuthPage = new BasicAuthPage(driver);
         challengingDomAndou=new ChallengingDomAndou(driver);
         andoumenutextpage=new AndoumenutextPage(driver);
+        andounewAction=new AndounewAction(driver);
     }
 
     @AfterMethod

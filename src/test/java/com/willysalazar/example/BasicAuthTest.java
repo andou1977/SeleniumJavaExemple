@@ -19,6 +19,8 @@ private static final Logger LOGGER = LogManager.getLogger();
                     getTextTitleBasicAuth();
         Assert.assertEquals(titlePageAuthorized, "Basic Auth");
         LOGGER.info("Test Basic Auth successful");
+
+
     }
 
 }
