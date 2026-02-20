@@ -42,7 +42,7 @@ pipeline {
             }
             post {
                 always {
-                    archiveArtifacts artifacts: 'target/allure-report/**', fingerprint: true
+                    archiveArtifacts artifacts: 'target/site/allure-maven-plugin/**', fingerprint: true
                 }
             }
         }
