@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Selenium Suite">
+    <test name="All Tests">
+        <classes>
+            <class name="com.willysalazar.example.AbTest"/>
+            <class name="com.willysalazar.example.AddRemoveElementsTest"/>
+            <class name="com.willysalazar.example.page.AndouAuthTest"/>
+            <class name="com.willysalazar.example.page.AndouformAuthenticationTest"/>
+            <class name="com.willysalazar.example.page.AndoumenutextPageTest"/>
+            <class name="com.willysalazar.example.page.AndounewActionTest"/>
+            <class name="com.willysalazar.example.BasicAuthTest"/>
+            <class name="com.willysalazar.example.page.ChallengingDomAndouTest"/>
+            <class name="com.willysalazar.example.WelcomeTest"/>
+        </classes>
+    </test>
+</suite>
